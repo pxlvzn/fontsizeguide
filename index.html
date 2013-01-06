@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<title>Visual Font Size Guide</title>
+<meta name="author" content="PXLVZN">
+<link rel="stylesheet" href="_css/font.css" type="text/css" media="all">
+<link rel="stylesheet" href="_css/core.css" type="text/css" media="all">
+</head>
+
+<body>
+<div id="pagewrapper">
+    
+<header id="masthead">
+<h1>Font Size Guide</h1>
+</header>
+
+<p id="description">The purpose of this tool is to illustrate how font-faces at various weights and styles render on screen at diffrent sizes.</p>
+<p class="notes"><strong>NOTES:</strong><br>
+    - The default settings are: <strong>sans-serif, capitalized and normal.</strong><br>
+    - <strong>14px</strong> is the baseline font that PT and % sizes are derived form. As it is the common base size for most HTML/Web frameworks.<br>
+    - <strong>9px</strong> is the smallest readble font size online. Anything lower will fail to render correctly in different browsers.</p>
+
+
+<div id="typecontrols">
+<select id="typefaces"> </select>    
+<select id="typecase">
+    <option value="arial">Set Case...</option>
+    <option id="mixed" value="capitalize">Mixed/Camel Case</option>
+    <option id="lowercase" value="lowercase">Lower Case</option>
+    <option id="uppercase" value="uppercase">Upper Case</option>
+</select>
+<select id="typestyle">
+    <option value="arial">Set Weight/Style...</option>
+    <option id="normal" value="normal">Normal</option>
+    <option id="bold" value="bold">Bold</option>
+    <option id="italic" value="italic">Italic</option>
+    <option id="bolditalic" value="bolditalic">Bold Italic</option>
+</select> 
+</div>
+
+<section id="typeexamples">
+<p>12pt = 14px = 100% &mdash; The quick brow fox jumps over the lazy dog.</p>
+</section>
+
+<footer id="footer">
+<p>&copy; Copyright PXLVZN</p>
+</footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+<script src="_js/core.js" type="text/javascript"></script>
+
+</body>
+</html>

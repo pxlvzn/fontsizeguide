@@ -1,0 +1,6 @@
+{
+	"fontinfo": {
+		"typefaces": ["Arial", "DejaVuSansBook", "DejaVuSansCondensed", "Courier", "PTSansCaptionRegular", "PTSansRegular", "Times", "RobotoBlack", "RobotoCondensed", "RobotoLight", "RobotoMedium", "RobotoRegular", "RobotoThin", "UbuntuTitlingBold"],
+		"typesizes": [9, 10, 11, 12, 13, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 40, 44, 48, 50, 60, 70, 80, 90, 100]
+	}
+}

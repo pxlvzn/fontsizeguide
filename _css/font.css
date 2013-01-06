@@ -1,0 +1,204 @@
+/* =============================================================================
+ * FONT STYLES
+ * ========================================================================== */
+
+/* DEJAVU */
+@font-face {
+    font-family: 'DejaVuSansBook';
+    src: url('../_fonts/DejaVuSans-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSans-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSans-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansOblique';
+    src: url('../_fonts/DejaVuSans-Oblique-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSans-Oblique-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSans-Oblique-webfont.svg#DejaVuSansOblique') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansBold';
+    src: url('../_fonts/DejaVuSans-Bold-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSans-Bold-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSans-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSans-Bold-webfont.svg#DejaVuSansBold') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansBoldOblique';
+    src: url('../_fonts/DejaVuSans-BoldOblique-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSans-BoldOblique-webfont.svg#DejaVuSansBoldOblique') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url('../_fonts/DejaVuSansCondensed-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSansCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSansCondensed-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSansCondensed-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSansCondensed-webfont.svg#DejaVuSansCondensed') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensedOblique';
+    src: url('../_fonts/DejaVuSansCondensed-Oblique-webfont.eot');
+    src: local('☺'),url('../_fonts/DejaVuSansCondensed-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSansCondensed-Oblique-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSansCondensed-Oblique-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSansCondensed-Oblique-webfont.svg#DejaVuSansCondensedOblique') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansCondensedBold';
+    src: url('../_fonts/DejaVuSansCondensed-Bold-webfont.eot');
+    src: url('../_fonts/DejaVuSansCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSansCondensed-Bold-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSansCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSansCondensed-Bold-webfont.svg#DejaVuSansCondensedBold') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DejaVuSansCnBdOb';
+    src: url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.eot');
+    src: url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.woff') format('woff'),
+         url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.ttf') format('truetype'),
+         url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.svg#DejaVuSansCnBdOb') format('svg');
+    font-weight: 400
+    font-style: normal;
+
+}
+
+/* ROBOTO */
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../_fonts/Roboto-Regular-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../_fonts/Roboto-Condensed-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Condensed-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Condensed-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../_fonts/Roboto-Thin-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../_fonts/Roboto-Light-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../_fonts/Roboto-Medium-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('../_fonts/Roboto-Black-webfont.eot');
+    src: local('☺'),url('../_fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('../_fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('../_fonts/Roboto-Black-webfont.svg#RobotoBlack') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* PT SANS */
+@font-face {
+    font-family: 'PTSansCaptionRegular';
+    src: url('../_fonts/PTC55F-webfont.eot');
+    src: local('☺'),url('../_fonts/PTC55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/PTC55F-webfont.woff') format('woff'),
+         url('../_fonts/PTC55F-webfont.ttf') format('truetype'),
+         url('../_fonts/PTC55F-webfont.svg#PTSansCaptionRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../_fonts/PTS55F-webfont.eot');
+    src: local('☺'),url('../_fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/PTS55F-webfont.woff') format('woff'),
+         url('../_fonts/PTS55F-webfont.ttf') format('truetype'),
+         url('../_fonts/PTS55F-webfont.svg#PTSansRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* UBUNTU */
+@font-face {
+    font-family: 'UbuntuTitlingBold';
+    src: url('../_fonts/UbuntuTitling-Bold-webfont.eot');
+    src: local('☺'),url('../_fonts/UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/UbuntuTitling-Bold-webfont.woff') format('woff'),
+         url('../_fonts/UbuntuTitling-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/UbuntuTitling-Bold-webfont.svg#UbuntuTitlingBold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
