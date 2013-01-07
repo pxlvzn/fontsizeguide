@@ -25,6 +25,7 @@ Dynamic (Typekit, Fonts.com, Google Fonts, etc):
 
 
 REMOVING FONTS:
+
 1.) Delete the relevant files in the _fonts/ directory.
 
 2.) Open the _css/font.css then remove the relevant entries.
