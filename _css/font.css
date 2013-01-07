@@ -10,9 +10,8 @@
          url('../_fonts/DejaVuSans-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSans-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSans-webfont.svg#DejaVuSansBook') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -22,9 +21,8 @@
          url('../_fonts/DejaVuSans-Oblique-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSans-Oblique-webfont.svg#DejaVuSansOblique') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -34,9 +32,8 @@
          url('../_fonts/DejaVuSans-Bold-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSans-Bold-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSans-Bold-webfont.svg#DejaVuSansBold') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -46,9 +43,8 @@
          url('../_fonts/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSans-BoldOblique-webfont.svg#DejaVuSansBoldOblique') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -58,9 +54,8 @@
          url('../_fonts/DejaVuSansCondensed-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSansCondensed-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSansCondensed-webfont.svg#DejaVuSansCondensed') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -70,9 +65,8 @@
          url('../_fonts/DejaVuSansCondensed-Oblique-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSansCondensed-Oblique-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSansCondensed-Oblique-webfont.svg#DejaVuSansCondensedOblique') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -82,9 +76,8 @@
          url('../_fonts/DejaVuSansCondensed-Bold-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSansCondensed-Bold-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSansCondensed-Bold-webfont.svg#DejaVuSansCondensedBold') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -94,7 +87,7 @@
          url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.woff') format('woff'),
          url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.ttf') format('truetype'),
          url('../_fonts/DejaVuSansCondensed-BoldOblique-webfont.svg#DejaVuSansCnBdOb') format('svg');
-    font-weight: 400
+    font-weight: 400;
     font-style: normal;
 
 }
@@ -131,7 +124,6 @@
          url('../_fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
     font-weight: 400;
     font-style: normal;
-
 }
 
 @font-face {
@@ -143,7 +135,6 @@
          url('../_fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
     font-weight: 400;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'RobotoMedium';
@@ -154,7 +145,6 @@
          url('../_fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
     font-weight: 400;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'RobotoBlack';
@@ -165,7 +155,6 @@
          url('../_fonts/Roboto-Black-webfont.svg#RobotoBlack') format('svg');
     font-weight: 400;
     font-style: normal;
-
 }
 
 /* PT SANS */
@@ -178,7 +167,6 @@
          url('../_fonts/PTC55F-webfont.svg#PTSansCaptionRegular') format('svg');
     font-weight: 400;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'PTSansRegular';
@@ -189,6 +177,18 @@
          url('../_fonts/PTS55F-webfont.svg#PTSansRegular') format('svg');
     font-weight: 400;
     font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTMonoRegular';
+  src: url('../_fonts/PTM55FT-webfont.eot');
+  src: local('☺'), 
+  url('../_fonts/PTM55FT-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../_fonts/PTM55FT-webfont.woff') format('woff'),
+  url('../_fonts/PTM55FT-webfont.ttf') format('truetype'),
+  url('../_fonts/PTM55FT-webfont.svg#PTMonoRegular') format('svg');
+  font-weight: 400;
+  font-style: normal
 }
 
 /* UBUNTU */

@@ -109,21 +109,21 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 /* =============================================================================
  CUSTOM CSS
  ========================================================================== */
-body {color:#252525;background-color:#fff;font-family:sans-serif;overflow-y:scroll !important;text-rendering:optimizeLegibility}
+body {color:#252525;background-color:#fff;font-family:sans-serif;overflow-y:scroll !important}
 p {line-height:1.4}
 hr {margin:15px 0;border:0;height:0;border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3)}
-
 header#masthead {margin:0 0 20px 0;border-bottom:1px solid #000}
-#masthead h1 {font-family:'DejaVuSansBold', sans-serif;font-size:300%;}
-#description {font-family:'DejaVuSansBook';font-size:114%;margin-bottom:20px}
+header#masthead h1 {font-family:'DejaVuSansBold', sans-serif;font-size:300%;}
+#description {font-family:'DejaVuSansBook';font-size:114%;margin-bottom:10px}
 #pagewrapper {margin:auto 25px}
 #typecontrols {margin-top:30px}
+#typecontrols select{padding:4px 4px 2px 4px;font-family:'PTMonoRegular','courier',monospace}
 #typeexamples {margin:30px 0}
+footer#footer {padding:5px 10px;margin-bottom:10px;font-size:86%;color:#000;font-weight:700}
+footer#footer .symbl{font-size:100%}
 
-footer#footer {margin-bottom:10px;font-size:79%;color:#999}
-
-.notes {color:#666;font-family:'DejaVuSansOblique',sans-serif;font-size:93%;}
-.sizeinfo {font-family:'DejaVuSansBold',sans-serif !important;color:#b4b4b4}
+.notes {color:#666;font-family:'DejaVuSansOblique',sans-serif;font-size:93%}
+.sizeinfo {font-family:'DejaVuSansBold',sans-serif !important;font-weight:normal !important;font-style:normal !important;color:#b4b4b4}
 
 /* =============================================================================
  PRINT STYLES

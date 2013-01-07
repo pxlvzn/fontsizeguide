@@ -1,16 +1,18 @@
 /*
-*
+* Visual Font Size Guide code
 */
 
 // Custom Namespace
 var FSG = {
-    baselineFontSize : 14,
-    //
+    // HTML Element that holds all the examples
     container : document.getElementById('typeexamples'),
-    //
+
+    // path to data source
     dataSrc : '_data/typefaces.json',
-    //
+
+    // object to hold returned data
     fontData : null,
+
     // Function to handle UI events
     addEvent : function(obj, evType, fn) {
         if (obj.addEventListener) {
@@ -24,7 +26,7 @@ var FSG = {
             return false;
         }
     },
-    //
+    // function to retrive and load the font dataset
     getData : function(dataSrc) {
         $.ajax({
             type : 'GET',
@@ -37,7 +39,7 @@ var FSG = {
             }
         });
     },
-    //
+    // function to generate and render font size examples
     content : function() {
         var container = FSG.container;
         container.style.fontFamily = 'sans-serif';
@@ -53,7 +55,7 @@ var FSG = {
         }
         container.innerHTML = examples;
     },
-    //
+    // function to generate and render font menu content
     fontMenu : function() {
         var fontfacelist = document.getElementById('typefaces');
         var fontfaces = FSG.fontData.fontinfo.typefaces;
@@ -65,6 +67,7 @@ var FSG = {
         };
         fontfacelist.innerHTML = '<option>Select a Typeface...</option>' + menuoptions;
     },
+    // function to change baseline font size
     changeBaseline : function() {
         var baseSelected = this.value;
         var baselineFontSize = FSG.baselineFontSize;
@@ -82,6 +85,7 @@ var FSG = {
                 baselineFontSize = 14;
         };
     },
+    // function to change font case based on user selection
     changeCase : function() {
         var caseSelected = this.value;
         var container = FSG.container;
@@ -99,11 +103,13 @@ var FSG = {
                 container.style.textTransform = 'capitalize';
         };
     },
+    // function to change font face based on user selection
     changeFont : function() {
         var fontSelected = this.value;
         var container = FSG.container;
         container.style.fontFamily = fontSelected;
     },
+    // function to change font style based on user selection
     changeStyle : function() {
         var styleSelected = this.value;
         var container = FSG.container;
@@ -128,9 +134,12 @@ var FSG = {
                 container.style.fontWeight = 400;
         };
     },
-    //
+    // function to intialize the program
     init : function() {
+        // load get data function
         FSG.getData(FSG.dataSrc);
+
+        // load UI event listeners
         FSG.addEvent(document.getElementById('typecase'), 'change', FSG.changeCase);
         FSG.addEvent(document.getElementById('typefaces'), 'change', FSG.changeFont);
         FSG.addEvent(document.getElementById('typestyle'), 'change', FSG.changeStyle);
