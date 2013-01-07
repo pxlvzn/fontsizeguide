@@ -46,12 +46,13 @@ var FSG = {
         container.style.fontStyle = 'normal';
         container.style.fontWeight = 400;
         container.style.textTransform = 'capitalize';
+        var baselineFontSize = 14;
         var fontsizes = FSG.fontData.fontinfo.typesizes;
         var fontsizesLen = fontsizes.length;
         var size = 0;
         var examples = '';
         for ( size = 0; size < fontsizesLen; size++) {
-            examples += '<p><span class="sizeinfo">' + (fontsizes[size] * (72 / 96)) + 'pt = ' + fontsizes[size] + 'px = ' + (Math.round((fontsizes[size] / FSG.baselineFontSize) * 100)) + '% : </span><br> <span style="font-size:' + fontsizes[size] + 'px;">The quick brow fox jumps over the lazy dog.</span></p><hr>';
+            examples += '<p><span class="sizeinfo">' + (fontsizes[size] * (72 / 96)) + 'pt = ' + fontsizes[size] + 'px = ' + (Math.round((fontsizes[size] / baselineFontSize) * 100)) + '% : </span><br> <span style="font-size:' + fontsizes[size] + 'px;">The quick brow fox jumps over the lazy dog.</span></p><hr>';
         }
         container.innerHTML = examples;
     },
