@@ -15,14 +15,11 @@ Local (Font Squirrel, etc):
 
 3.) Open _data/typefaces.json then add new font names to the "typefaces" object.
 
-
 Dynamic (Typekit, Fonts.com, Google Fonts, etc):
 
-1.)Open index.html and add <link> or <script> tag to the remote font CSS or Javascript file. 
+1.)Open index.html and add <link> or <script> tag to the remote font CSS or Javascript file.
 
 2.) Open _data/typefaces.json then add new font names to the "typefaces" object.
-
-
 
 REMOVING FONTS:
 
@@ -32,7 +29,7 @@ REMOVING FONTS:
 
 3.) Open _data/typefaces.json file then remove the relevent font names from the "typefaces" object.
 
-
 ADDING/UPDATING FONT SIZES:
 
 1.) Open _data/typefaces.json then add/remove values in the "typesizes" object.
+
