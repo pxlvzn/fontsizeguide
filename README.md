@@ -7,7 +7,7 @@ CUSTOMIZATION:
 
 ADDING FONTS:
 
-Local (Font Squirrel, etc):
+Local (Font Squirrel, @fontface, etc):
 
 1.) Add font faces to _fonts/
 
@@ -17,13 +17,19 @@ Local (Font Squirrel, etc):
 
 Dynamic (Typekit, Fonts.com, Google Fonts, etc):
 
-1.)Open index.html and add <link> or <script> tag to the remote font CSS or Javascript file.
+1.)Open index.html and add link or script tag to the remote font CSS or Javascript file.
 
 2.) Open _data/typefaces.json then add new font names to the "typefaces" object.
+
 REMOVING FONTS:
+
 1.) Delete the relevant files in the _fonts/ directory.
+
 2.) Open the _css/font.css then remove the relevant entries.
+
 3.) Open _data/typefaces.json file then remove the relevent font names from the "typefaces" object.
+
 ADDING/UPDATING FONT SIZES:
+
 1.) Open _data/typefaces.json then add/remove values in the "typesizes" object.
 
