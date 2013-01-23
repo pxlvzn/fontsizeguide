@@ -108,7 +108,7 @@ var FSG = {
     changeFont : function() {
         var fontSelected = this.value;
         var container = FSG.container;
-        container.style.fontFamily = fontSelected;
+        container.style.fontFamily = '"'+fontSelected+'"';
     },
     // function to change font style based on user selection
     changeStyle : function() {
