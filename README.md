@@ -5,9 +5,7 @@ The purpose of this tool is to illustrate how font/type faces at various sizes, 
 
 CUSTOMIZATION:
 
-ADDING FONTS:
-
-Local (Font Squirrel, @fontface, etc):
+ADD LOCAL FONT FILES:
 
 1.) Add font faces to _fonts/
 
@@ -15,9 +13,9 @@ Local (Font Squirrel, @fontface, etc):
 
 3.) Open _data/typefaces.json then add new font names to the "typefaces" object.
 
-Dynamic (Typekit, Fonts.com, Google Fonts, etc):
+ADD REMOTE FONTS (Typekit, Fonts.com, Google Fonts, etc):
 
-1.)Open index.html and add link or script tag to the remote font CSS or Javascript file.
+1.) Open index.html and add link or script tag to the remote font CSS or Javascript file.
 
 2.) Open _data/typefaces.json then add new font names to the "typefaces" object.
 
